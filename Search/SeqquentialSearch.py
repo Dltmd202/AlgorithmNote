@@ -8,3 +8,4 @@ def sequential_search(n , target , array):
         if array[ i ] == target:
             return i + 1
 
+
