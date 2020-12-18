@@ -1,3 +1,3 @@
 #__init.py
 
-__all__ = ['RotateMatrix90Degree']
+__all__ = ['SelectionSort']
