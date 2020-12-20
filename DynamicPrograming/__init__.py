@@ -1,3 +1,3 @@
 #__init.py
 
-__all__ = ['fibo']
+__all__ = ['fibo','FloydWarshall']
