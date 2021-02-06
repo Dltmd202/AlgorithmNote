@@ -1,3 +1,3 @@
 # __init__.py
 
-__all__ = ["BinaryIndexTree"]
+__all__ = ["BinaryIndexTree","LCA"]
