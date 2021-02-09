@@ -25,7 +25,7 @@ def max_flow(start, end):
         while q and distance[end] == -1:
             now = q.popleft()
             for will in graph[now]:
-                if capacity[now][will] - flow[now][will] > 0:
+                if capacity[now][will] - flow[now][will] > 0 and distance[will] == -1:
                     q.append(will)
                     distance[will] = now
                     if will == end:
